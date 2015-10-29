@@ -8,6 +8,7 @@
 
 # add additional commands needed for Lmod and module loads here
 
+module load python
 module load pyopencl
 
 # add commands for analyses here
