@@ -18,6 +18,8 @@ for platform in platforms:
         print 'Maximum clock Frequency:', device.max_clock_frequency, 'MHz'
         print 'Maximum allocable memory size:', int(device.max_mem_alloc_size / 1e6), 'MB'
         print 'Maximum work group size', device.max_work_group_size
+        print 'Maximum work item dimensions', device.max_work_item_dimensions
+        print 'Maximum work item size', device.max_work_item_sizes
         print '---------------------------'
 
 # Create a context with all the devices
